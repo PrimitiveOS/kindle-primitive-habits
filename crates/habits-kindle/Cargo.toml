@@ -1,0 +1,10 @@
+[package]
+name = "habits-kindle"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+habits-core.workspace = true
+habits-render.workspace = true
+primitive-app.workspace = true
