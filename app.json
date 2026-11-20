@@ -11,7 +11,7 @@
     "productivity"
   ],
   "description": "Log each habit with a tap and review your last seven days. Choose a daily or weekly target, correct a check-in, and export your history as CSV. Works offline.",
-  "repo": "https://github.com/DoanNguyenTrong/kindle-primitive-habits",
+  "repo": "https://github.com/PrimitiveOS/kindle-primitive-habits",
   "licence": "PolyForm-Noncommercial-1.0.0",
   "source": "hosted",
   "icon": "icon.png",
