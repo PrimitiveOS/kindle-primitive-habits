@@ -195,9 +195,11 @@ impl View {
             let check = check_bounds(index);
             let pressed = canvas.control_pressed(check, false);
             let done = habit.dates.contains(&self.today);
-            canvas.panel(check.inset(27), 7, 4, if pressed || done { 0 } else { 255 });
+            // A tap reverses the box: a checked box turns white while it is held, an empty one turns black.
+            let on = done != pressed;
+            canvas.panel(check.inset(27), 7, 4, if on { 0 } else { 255 });
             if done {
-                canvas.icon(check.inset(32), CHECKMARK, 255);
+                canvas.icon(check.inset(32), CHECKMARK, if on { 255 } else { 0 });
             }
             row(
                 canvas,
