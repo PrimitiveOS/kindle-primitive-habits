@@ -172,7 +172,7 @@ impl View {
     }
 
     fn draw_home(&self, canvas: &mut Canvas) {
-        header(canvas, "Habits", "Done");
+        header(canvas, "Habits", "Exit");
         canvas.text(rect(40, 175, 465, 100), "Today", TextStyle::new(52).bold());
         canvas.button(ADD, "Add habit", true, false);
         if !self.state.data.habits.is_empty() {
