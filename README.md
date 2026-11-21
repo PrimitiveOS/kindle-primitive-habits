@@ -1,39 +1,48 @@
-# Habits for Kindle
+<div align="center">
 
-Log daily routines on Kindle and see how you are doing this week.
+<img src="icon.png" alt="Habits icon" width="110">
 
-<table>
-  <tr>
-    <td align="center"><img src="docs/images/habits-today.png" alt="Habit check-ins for Today" width="250"><br><sub>Habit check-ins for Today</sub></td>
-    <td align="center"><img src="docs/images/habits-history-dark.png" alt="Seven days of history in dark mode" width="250"><br><sub>Seven days of history in dark mode</sub></td>
-    <td align="center"><img src="docs/images/habits-target.png" alt="Choosing a daily or weekly target" width="250"><br><sub>Choosing a daily or weekly target</sub></td>
-  </tr>
-</table>
+# Habits
 
-The screenshots are from the desktop simulator.
+**Build a daily or weekly routine**
 
-## How to use it
+[![Release](https://img.shields.io/github/v/release/PrimitiveOS/kindle-primitive-habits?label=release)](https://github.com/PrimitiveOS/kindle-primitive-habits/releases) [![Licence: PolyForm-Noncommercial-1.0.0](https://img.shields.io/badge/licence-PolyForm--Noncommercial--1.0.0-blue)](LICENSE) [![Store downloads](https://img.shields.io/badge/Store%20downloads-19-brightgreen)](https://primitiveos.github.io/kindle-primitive-catalog/v1/index.json)
 
-- Tap **Add habit** and enter a name. Choose a daily target or a number of days per week.
-- Tap an item’s checkbox on **Today** to save a check-in. Tap it again to clear that day.
-- Open a habit to see seven labelled dates. Choose a date and use **Mark done** or **Clear check-in** to correct it.
-- Tap **Export CSV** to save the history in **Documents** for copying over USB.
+[**Download**](https://github.com/PrimitiveOS/kindle-primitive-habits/releases/latest) · [**Install guide**](INSTALL.md) · [**Changelog**](CHANGELOG.md)
 
-Habits and check-ins stay on the Kindle. Weekly totals start on Monday.
+</div>
 
-## Install
+---
 
-Open **Store** from Primitive Launcher and look for **Habits**. [Install guide](INSTALL.md)
+Log each habit with a tap and review your last seven days. Choose a daily or weekly target, correct a check-in, and export your history as CSV. Works offline.
 
-## Simulate on a computer
+## Quick start
 
-Keep [PrimitiveOS Tools](https://github.com/PrimitiveOS/kindle-primtitive-tools) and
-[Primitive Launcher](https://github.com/PrimitiveOS/kindle-primitive-launcher) beside this repository.
+After setting up PrimitiveOS, open **Store** from Primitive Launcher. Choose **Habits** under **Apps**,
+tap **Get**, and open it from the Launcher grid. The [install guide](INSTALL.md) also covers the standalone USB package.
 
-```sh
-cargo test --offline --locked --workspace
-cargo run --offline --locked -p habits-desktop -- build/previews
-```
+## Highlights
+
+- Log each habit with a tap and review your last seven days.
+- Choose a daily or weekly target, correct a check-in, and export your history as CSV.
+- Works offline.
+
+## Status
+
+| Device | Status |
+|---|---|
+| Kindle Oasis 3 (1264 × 1680, firmware 5.18.2) | Tested on hardware |
+
+**Current version: 0.1.1.** Changes are in [CHANGELOG.md](CHANGELOG.md).
+
+## Downloads
+
+**19 downloads** from Store, as of 2026-11-21. Store shows the same count on the app page.
+The count is GitHub downloads of this app's release packages, from the [Store catalog](https://primitiveos.github.io/kindle-primitive-catalog/v1/index.json).
+
+## Documentation
+
+[Install guide](INSTALL.md) · [Changelog](CHANGELOG.md)
 
 ## Licence
 
