@@ -303,7 +303,7 @@ dependencies = [
 
 [[package]]
 name = "habits-core"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "chrono",
  "serde",
@@ -311,7 +311,7 @@ dependencies = [
 
 [[package]]
 name = "habits-desktop"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "chrono",
  "habits-core",
@@ -322,7 +322,7 @@ dependencies = [
 
 [[package]]
 name = "habits-kindle"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "habits-core",
  "habits-render",
@@ -331,7 +331,7 @@ dependencies = [
 
 [[package]]
 name = "habits-render"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "chrono",
  "habits-core",
